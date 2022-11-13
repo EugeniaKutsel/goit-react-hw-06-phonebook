@@ -9,7 +9,7 @@ const Filter = () => {
   return (
     <div className={css.filter}>
     <label className={css.filterName}>Find contacts by name:</label>
-      <input className={css.filterInput} type="text"  onChange={changeFilter} />
+      <input className={css.filterInput} type="text" onChange={changeFilter} />
     </div>
   )
 }
